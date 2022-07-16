@@ -1,0 +1,59 @@
+:root {
+  --primary-color: blue;
+  --secondary-color: #fff;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+}
+h1,
+h2,
+h3 {
+  text-align: center;
+  margin: 0;
+  color: rgb(33, 37, 41);
+}
+h2 {
+  margin-top: 50px;
+  font-size: 48px;
+}
+h1 {
+  font-size: 96px;
+}
+h3 {
+  opacity: 0.7;
+  margin-bottom: 50px;
+}
+.button {
+  display: flex;
+  justify-content: center;
+}
+a.buttons {
+  margin: 20px;
+}
+.primary-btn {
+  background: var(--primary-color);
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  color: var(--secondary-color);
+}
+.primary-btn:hover {
+  color: var(--secondary-color);
+  background: rgb(0, 0, 184);
+}
+.secondary-btn {
+  background: var(--secondary-color);
+  border: 1px solid var(--primary-color);
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+  color: var(--primary-color);
+}
+.secondary-btn:hover {
+  color: var(--primary-color);
+  background: rgb(246, 246, 246);
+}
