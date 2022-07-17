@@ -30,9 +30,9 @@
     <link rel="stylesheet" href="style/style.css" />
   </head>
   <body class=".bg-light">
-    <nav class="navbar navbar-expand-md navbar-light bg-light">
+    <nav class="navbar navbar-expand-sm navbar-light bg-light">
       <div class="container-fluid">
-        <a class="navbar-brand" href="#">Tetiana Kolomiets</a>
+        <a class="navbar-brand" href="index.html">Tetiana Kolomiets</a>
         <button
           class="navbar-toggler"
           type="button"
@@ -47,13 +47,15 @@
         <div class="collapse navbar-collapse" id="navbarText">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link" aria-current="page" href="/index.html"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="/about.html">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="about.html">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="contact.html">Contact</a>
+              <a class="nav-link" href="/about.html#contact">Contact</a>
             </li>
           </ul>
         </div>
@@ -63,17 +65,17 @@
     <h1>Tetiana Kolomiets</h1>
     <h3>UA Front-end developer, based in Europe</h3>
     <div class="button">
-      <a href="contact.html" class="buttons primary-btn">Contact Me</a>
-      <a href=" about.html" class="buttons secondary-btn">About Me</a>
+      <a href="/about.html#contact" class="buttons primary-btn">Contact Me</a>
+      <a href="/about.html" class="buttons secondary-btn">About Me</a>
     </div>
     <div class="container">
       <div class="row">
-        <div class="col-6">
+        <div class="col-12 col-md-6">
           <img class="img-fluid" src="images/candle.JPG" alt="candle app" />
         </div>
-        <div class="col-6 app-paragraph">
+        <div class="col-12 col-md-6">
           <h2>Candle App</h2>
-          <p class="bg-white">
+          <p class="bg-white paragraph">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
             quia, dignissimos nam ratione veniam quibusdam porro omnis quam vel
             eos eveniet alias temporibus deserunt veritatis minima fugiat
@@ -88,33 +90,37 @@
         </div>
       </div>
       <div class="row">
-        <div class="col-6 app-paragraph">
+        <div class="col-12 col-md-6">
           <h2>Weather app</h2>
-          <p class="bg-white">
+          <p class="bg-white paragraph">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
             quia, dignissimos nam ratione veniam quibusdam porro omnis quam vel
             eos eveniet alias temporibus deserunt veritatis minima fugiat
             explicabo eum dolore.
           </p>
-          <a href="index.html" class="app-link">Launch Weather app</a>
+          <a
+            href="https://inquisitive-kulfi-2380b0.netlify.app/"
+            target="_blank"
+            class="app-link"
+            >Explore Weather app</a
+          >
         </div>
-        <div class="col-6">
-          <img class="img-fluid" src="images/weather.png" alt="yoga" />
+        <div class="col-12 col-md-6">
+          <img class="img-fluid" src="images/weather.JPG" alt="weather app" />
         </div>
       </div>
       <div class="row">
-        <div class="col-6">
-          <img class="img-fluid" src="images/yogurt.png" alt="yoga" />
+        <div class="col-12 col-md-6">
+          <img
+            class="img-fluid"
+            src="images/weather.JPG"
+            alt="dictionaty app"
+          />
         </div>
-        <div class="col-6 app-paragraph">
-          <h2>Yogurt app</h2>
-          <p class="bg-white">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
-            quia, dignissimos nam ratione veniam quibusdam porro omnis quam vel
-            eos eveniet alias temporibus deserunt veritatis minima fugiat
-            explicabo eum dolore.
-          </p>
-          <a href="index.html" class="app-link">Launch Yogurt app</a>
+        <div class="col-12 col-md-6">
+          <h2>Dictionary app</h2>
+          <p class="bg-white" paragraph>In progress...</p>
+          <a href="index.html" class="app-link">Explore Dictionary app</a>
         </div>
       </div>
     </div>

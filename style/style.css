@@ -123,13 +123,19 @@ svg {
 .img-fluid {
   max-width: 100%;
   height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.app-paragraph {
-  margin-top: 100px;
-}
+
 .bg-light {
   margin-bottom: 30px;
 }
 #contact {
   margin-top: 40px;
+}
+.paragraph {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
