@@ -21,9 +21,9 @@ h1 {
   background: -webkit-linear-gradient(#abd699, #75c9b7);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  margin: 20px;
 }
 h2 {
-  margin-top: 50px;
   font-family: "Lora", serif;
   font-weight: 400;
 }
@@ -31,30 +31,44 @@ h3 {
   opacity: 0.7;
   margin-bottom: 50px;
 }
-@media (max-width: 600px) {
-  h1 {
-    font-size: 60px;
-  }
-}
+
 p {
   background: var(--secondary-color);
   padding: 20px;
   border-radius: 4px;
   font-size: 18px;
-  line-height: 1.5;
-  text-align: center;
+  line-height: 1.7;
+  text-align: justify;
 }
-img,
-svg {
+img {
   vertical-align: middle;
+  border-radius: 4px;
 }
-a.buttons {
-  margin: 20px;
+@media (max-width: 768px) {
+  h1 {
+    font-size: 60px;
+  }
+  h2 {
+    margin-top: 50px;
+  }
+}
+.head {
+  padding: 30px 0px 70px 0px;
+  background-color: #f8f9fa;
+  margin-bottom: 30px;
+}
+.heading {
+  margin-top: 50px;
 }
 .button {
   display: flex;
   justify-content: center;
-  margin-bottom: 50px;
+}
+.grid-element {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .primary-btn {
   background: var(--primary-color);
@@ -95,33 +109,10 @@ a.buttons {
   box-shadow: var(--box-shadow);
   color: white;
 }
-.contact-link {
-  background: var(--primary-color);
-  box-shadow: var(--box-shadow);
-  color: white;
+.app-link:hover {
+  color: var(--secondary-color);
+  background: #5eb5a2;
 }
-
-.about-link {
-  color: var(--primary-color);
-  border: 1px solid var(--primary-color);
-}
-
-.homepage-link {
-  color: var(--primary-color);
-  text-align: center;
-  display: block;
-}
-
-.about-paragraphs {
-  display: flex;
-  margin: 30px 0;
-}
-
-.about-paragraphs p {
-  background: #fff;
-  margin: 10px;
-}
-
 .email-link {
   display: flex;
   justify-content: center;
@@ -129,22 +120,12 @@ a.buttons {
   font-size: 28px;
   text-decoration: none;
 }
-
 .email-link:hover {
   text-decoration: underline;
 }
 .img-fluid {
   max-width: 100%;
   height: auto;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.bg-light {
-  margin-bottom: 30px;
-}
-.paragraph {
   display: flex;
   justify-content: center;
   align-items: center;
