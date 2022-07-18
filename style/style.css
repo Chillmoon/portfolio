@@ -1,11 +1,10 @@
 :root {
-  --primary-color: #6c63ff;
-  --secondary-color: #f5f2fe;
+  --primary-color: #75c9b7;
+  --secondary-color: #ffffff;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 body {
   font-family: "Montserrat", sans-serif;
-  font-weight: 300;
 }
 h1,
 h2,
@@ -15,11 +14,18 @@ h3 {
   color: rgb(33, 37, 41);
 }
 h1 {
+  font-family: "Lora", serif;
   font-size: 96px;
+  font-weight: 900;
+  font-style: italic;
+  background: -webkit-linear-gradient(#abd699, #75c9b7);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 h2 {
   margin-top: 50px;
-  font-size: 48px;
+  font-family: "Lora", serif;
+  font-weight: 400;
 }
 h3 {
   opacity: 0.7;
@@ -29,17 +35,26 @@ h3 {
   h1 {
     font-size: 60px;
   }
-  h2 {
-    font-size: 30px;
-  }
+}
+p {
+  background: var(--secondary-color);
+  padding: 20px;
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 1.5;
+  text-align: center;
+}
+img,
+svg {
+  vertical-align: middle;
+}
+a.buttons {
+  margin: 20px;
 }
 .button {
   display: flex;
   justify-content: center;
   margin-bottom: 50px;
-}
-a.buttons {
-  margin: 20px;
 }
 .primary-btn {
   background: var(--primary-color);
@@ -52,7 +67,7 @@ a.buttons {
 }
 .primary-btn:hover {
   color: var(--secondary-color);
-  background: rgb(0, 0, 184);
+  background: #5eb5a2;
 }
 .secondary-btn {
   background: var(--secondary-color);
@@ -67,18 +82,7 @@ a.buttons {
   color: var(--primary-color);
   background: rgb(246, 246, 246);
 }
-p {
-  background: var(--secondary-color);
-  padding: 20px;
-  border-radius: 4px;
-  font-size: 18px;
-  line-height: 1.5;
-  text-align: center;
-}
-img,
-svg {
-  vertical-align: middle;
-}
+
 .app-link {
   margin: 30px;
   border-radius: 4px;
@@ -140,11 +144,11 @@ svg {
 .bg-light {
   margin-bottom: 30px;
 }
-#contact {
-  margin-top: 40px;
-}
 .paragraph {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+#contact {
+  margin-top: 40px;
 }
