@@ -56,11 +56,11 @@ p {
   align-items: center;
   text-align: center;
 }
-.button {
+.buttons {
   display: flex;
   justify-content: center;
 }
-.buttons {
+.button {
   border-radius: 4px;
   padding: 20px 15px;
   text-decoration: none;
@@ -86,6 +86,7 @@ p {
 .app-btn:hover {
   color: var(--secondary-color);
   background: #fff;
+  transition: all 200ms ease-in-out;
 }
 .email-link {
   display: flex;
