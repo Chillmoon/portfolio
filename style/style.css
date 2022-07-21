@@ -35,6 +35,9 @@ ul,
 li {
   list-style: none;
 }
+form {
+  color: var(--primary-color);
+}
 @media (max-width: 768px) {
   h1 {
     font-size: 60px;
@@ -112,8 +115,6 @@ li {
   font-size: 64px;
   line-height: 1;
   padding-bottom: 20px;
-}
-.contact-heading {
   background: var(--background);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
