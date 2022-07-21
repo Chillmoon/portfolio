@@ -11,14 +11,13 @@
 body {
   font-family: "Montserrat", sans-serif;
 }
-
 h1 {
   font-size: 96px;
   margin: 20px;
 }
 h2,
 h1,
-.about-heading {
+.heading {
   font-family: "Abril Fatface", cursive;
 }
 h3 {
@@ -31,6 +30,10 @@ p {
   font-size: 18px;
   line-height: 1.7;
   text-align: justify;
+}
+ul,
+li {
+  list-style: none;
 }
 @media (max-width: 768px) {
   h1 {
@@ -89,11 +92,9 @@ p {
   transition: all 200ms ease-in-out;
 }
 .email-link {
-  display: flex;
-  justify-content: center;
-  color: var(--primary-color);
-  font-size: 28px;
+  font-size: 15px;
   text-decoration: none;
+  color: var(--primary-color);
 }
 .email-link:hover {
   text-decoration: underline;
@@ -107,17 +108,30 @@ p {
   vertical-align: middle;
   border-radius: 10px;
 }
-.about-heading {
+.heading {
   font-size: 64px;
   line-height: 1;
   padding-bottom: 20px;
 }
+.contact-heading {
+  background: var(--background);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 .bg-dark {
   background: var(--background);
 }
-#contact {
-  margin: 40px 0px;
+.container-contacts {
+  padding: 60px 40px;
   display: block;
-  margin: auto;
-  text-align: center !important;
+  margin: 0 auto;
+  color: var(--primary-color);
+}
+.contacts {
+  display: inline-flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  color: var(--secondary-color);
 }
