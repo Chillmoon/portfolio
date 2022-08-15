@@ -70,8 +70,8 @@ footer {
 .navbar-brand {
   font-size: 25px;
   font-family: "Abril Fatface", cursive;
-  margin-bottom: 9px;
-  margin-left: 10px;
+
+  margin-left: 20px;
 }
 #carousel {
   max-width: 1000px;
