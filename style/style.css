@@ -7,6 +7,9 @@
     rgb(32, 38, 57) 11.4%,
     rgb(63, 76, 119) 70.2%
   );
+  --vierte-color: #f5fbff;
+  --typeWriterSpeed: 2.8s;
+  --typeWriterSteps: 18;
 }
 body {
   font-family: "Montserrat", sans-serif;
@@ -46,6 +49,7 @@ footer {
   align-items: center;
   background: var(--background);
   padding: 40px;
+  margin-top: 30px;
 }
 @media (max-width: 768px) {
   h1 {
@@ -61,6 +65,17 @@ footer {
   margin-bottom: 30px;
   text-align: center;
   color: #fff;
+}
+
+.navbar-brand {
+  font-size: 25px;
+  font-family: "Abril Fatface", cursive;
+  margin-bottom: 9px;
+}
+#carousel {
+  max-width: 1000px;
+  display: block;
+  margin: 0 auto;
 }
 .grid-element,
 .about-section {
@@ -119,6 +134,7 @@ footer {
   align-items: center;
   vertical-align: middle;
   border-radius: 10px;
+  margin: 50px 0px;
 }
 .heading {
   font-size: 64px;
@@ -140,14 +156,12 @@ footer {
 .contacts {
   margin: 0;
   padding: 0;
-  display: block;
-  margin: 0 auto;
-  /* display: inline-flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center; */
   text-align: left;
   color: var(--secondary-color);
+}
+.contacts ul {
+  display: block;
+  margin: 0 auto;
 }
 .footer-link,
 .social-links {
