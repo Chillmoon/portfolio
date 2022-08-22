@@ -64,12 +64,14 @@ footer {
   text-align: center;
   color: #fff;
 }
-
 .navbar-brand {
   font-size: 25px;
   font-family: "Abril Fatface", cursive;
 
   margin-left: 20px;
+}
+.nav-item {
+  text-align: center !important;
 }
 #carousel {
   max-width: 1000px;
